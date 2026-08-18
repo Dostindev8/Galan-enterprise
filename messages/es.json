@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "siteName": "Galan Operations LLC",
+    "defaultTitle": "Galan Operations LLC | Movemos carga. Entregamos confianza.",
+    "defaultDescription": "Galan Operations LLC ofrece soluciones de flete, transporte y logística en EE. UU. — rutas contratadas de Amazon Relay y carga OTR. Estamos contratando conductores Non-CDL.",
+    "ogAlt": "Galan Operations LLC — camión negro brillante en una autopista al atardecer"
+  },
+  "nav": {
+    "skip": "Saltar al contenido",
+    "home": "Inicio",
+    "services": "Servicios",
+    "careers": "Empleo",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "applyNow": "Aplica ahora",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "primary": "Principal"
+  },
+  "language": {
+    "en": "EN",
+    "es": "ES",
+    "switchTo": "Cambiar idioma"
+  },
+  "intro": {
+    "skip": "Saltar intro",
+    "welcome": "Bienvenido",
+    "together": "TOGETHER.",
+    "loading": "Cargando Galan Operations",
+    "tagline": "Movemos carga. Entregamos confianza."
+  },
+  "hero": {
+    "eyebrow": "TOGETHER.",
+    "title": "Movemos carga. Entregamos confianza.",
+    "subtitle": "Soluciones de logística y transporte en todo EE. UU.",
+    "ctaPrimary": "Estamos contratando conductores",
+    "ctaSecondary": "Nuestros servicios",
+    "imageAlt": "Camión semi negro brillante de Galan Operations circulando por una autopista al atardecer"
+  },
+  "trust": {
+    "amazon": "Amazon Relay",
+    "otr": "Rutas OTR (Over-The-Road)"
+  },
+  "aboutPreview": {
+    "eyebrow": "Quiénes somos",
+    "title": "Flete profesional. Responsabilidad personal.",
+    "body": "Galan Operations LLC es una empresa de flete y logística en EE. UU. construida sobre confiabilidad, seguridad y una cultura de flota profesional. Operamos trabajo contratado de Amazon Relay y rutas OTR de larga distancia — y contratamos conductores que se enorgullecen de cumplir.",
+    "cta": "Conocer más"
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Soluciones de transporte que mantienen la carga en movimiento",
+    "learnMore": "Conocer más",
+    "amazon": {
+      "title": "Amazon Relay",
+      "summary": "Rutas Relay contratadas con un estándar operativo profesional — trabajo consistente para conductores listos para entregar.",
+      "body": "Amazon Relay es un programa de flete contratado que conecta transportistas calificados con cargas de Amazon. Galan Operations opera Relay con puntualidad, equipo en orden y comunicación clara para que la carga llegue como se prometió.",
+      "expectTitle": "Qué pueden esperar conductores y socios",
+      "expect": [
+        "Rutas Relay contratadas operadas con un estándar profesional",
+        "Despacho claro y desempeño puntual con responsabilidad",
+        "Una cultura que trata la confiabilidad como no negociable"
+      ]
+    },
+    "otr": {
+      "title": "Rutas OTR",
+      "summary": "Transporte de larga distancia Over-The-Road en carriles de EE. UU. — distancia, disciplina y confianza.",
+      "body": "Nuestro trabajo OTR (Over-The-Road) cubre rutas de larga distancia en Estados Unidos. El brief es simple: rutas regulares, un ambiente profesional y conductores que tratan cada milla como un compromiso con el cliente.",
+      "expectTitle": "Qué pueden esperar los conductores OTR",
+      "expect": [
+        "Rutas de larga distancia con un ritmo de despacho profesional",
+        "Énfasis en seguridad, puntualidad y orgullo por el equipo",
+        "Espacio para crecer con una empresa que invierte en su gente"
+      ]
+    }
+  },
+  "careersHighlight": {
+    "eyebrow": "Estamos",
+    "title": "Contratando",
+    "drivers": "Conductores",
+    "sub": "Únete a nuestro equipo y conduce tu futuro.",
+    "positionLabel": "Posición",
+    "position": "Driver Non-CDL — Box Truck de 26 pies",
+    "requirementsTitle": "Requisitos",
+    "offersTitle": "Ofrecemos",
+    "whatsapp": "Aplica por WhatsApp",
+    "online": "Aplica en línea"
+  },
+  "careers": {
+    "eyebrow": "Empleo",
+    "title": "Estamos contratando conductores",
+    "sub": "Únete a nuestro equipo y conduce tu futuro.",
+    "positionLabel": "Posición",
+    "position": "Driver Non-CDL — Box Truck de 26 pies",
+    "requirementsTitle": "Requisitos",
+    "offersTitle": "Ofrecemos",
+    "applyTitle": "Aplica en línea",
+    "applySub": "Cuéntanos sobre ti. Revisamos cada solicitud calificada.",
+    "eeo": "Galan Operations LLC es un empleador que ofrece igualdad de oportunidades. Todos los solicitantes calificados recibirán consideración para empleo sin distinción de raza, color, religión, sexo, origen nacional, edad, discapacidad o cualquier otra condición protegida por la ley federal, estatal o local aplicable.",
+    "whatsappTop": "¿Prefieres WhatsApp? Escríbenos ahora.",
+    "whatsappBottom": "¿Preguntas? Escríbenos por WhatsApp."
+  },
+  "requirements": [
+    "Licencia de conducir válida",
+    "Experiencia manejando Box Truck (preferible)",
+    "Buen récord de manejo",
+    "Responsable y puntual",
+    "Autorización para trabajar en EE. UU."
+  ],
+  "offers": [
+    "Pago competitivo",
+    "Trabajo estable y constante",
+    "Rutas regulares",
+    "Ambiente profesional",
+    "Oportunidad de crecimiento"
+  ],
+  "stats": {
+    "eyebrow": "Por qué Galan",
+    "title": "Hecho para conductores que toman el trabajo en serio",
+    "items": [
+      { "label": "Rutas regulares", "detail": "Trabajo predecible con el que puedes planificar." },
+      { "label": "Flota profesional", "detail": "Cultura de equipo limpio y orgullo operativo." },
+      { "label": "Oportunidad de crecimiento", "detail": "Espacio para avanzar con la empresa." },
+      { "label": "Operaciones en EE. UU.", "detail": "Flete y logística en Estados Unidos." }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para conducir tu futuro?",
+    "body": "Aplica en línea o envíanos un mensaje de WhatsApp. Estamos contratando conductores Non-CDL para box trucks de 26 pies.",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "apply": "Aplica en línea"
+  },
+  "aboutPage": {
+    "eyebrow": "Nosotros",
+    "title": "Flete con un estándar.",
+    "missionTitle": "Misión",
+    "mission": "Mover carga con disciplina y entregar confianza en cada carril que operamos. Galan Operations LLC existe para ofrecer soluciones profesionales de logística y transporte en EE. UU. — rutas contratadas de Amazon Relay y trabajo OTR de larga distancia — tratando a los conductores como el centro de la operación.",
+    "visionTitle": "Visión",
+    "vision": "Un transportista profesional y ágil del que los conductores se sientan orgullosos, y en el que los clientes puedan confiar sin drama.",
+    "storyTitle": "Nuestra historia",
+    "story": "Galan Operations LLC es una empresa de flete y logística en EE. UU. Mantenemos la historia pública alineada con lo que podemos verificar: operaciones profesionales, un proceso de contratación para conductores Non-CDL de box truck, y una promesa simple — juntos, movemos carga y entregamos confianza.",
+    "valuesTitle": "Valores",
+    "values": [
+      { "title": "Confiabilidad", "body": "El producto es llegar a tiempo. Planificamos, comunicamos y cumplimos." },
+      { "title": "Seguridad", "body": "Cada milla es una responsabilidad. Contratamos por criterio, no solo por disponibilidad." },
+      { "title": "Profesionalismo", "body": "Equipo en orden, comunicación respetuosa y un estándar visible." },
+      { "title": "Crecimiento", "body": "Trabajo estable y un camino adelante para quien se presenta preparado." }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contacto",
+    "title": "Consultas de negocio y empleo",
+    "body": "Conductores, socios y consultas de negocio — envía un mensaje abajo o escríbenos por WhatsApp. Respondemos conversaciones calificadas.",
+    "business": "Consultas de negocio",
+    "whatsappLabel": "WhatsApp",
+    "formTitle": "Enviar un mensaje",
+    "addressNote": "Este sitio no publica una dirección física."
+  },
+  "forms": {
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "subject": "Asunto",
+    "subjectGeneral": "General",
+    "subjectCareers": "Empleo",
+    "subjectPartnership": "Alianzas",
+    "message": "Mensaje",
+    "cityState": "Ciudad / Estado",
+    "experience": "Años de experiencia en box truck",
+    "licenseStatus": "Estado de la licencia",
+    "licenseValid": "Licencia de conducir válida",
+    "licenseOther": "Otra / en proceso",
+    "workAuth": "Confirmo que estoy autorizado para trabajar en EE. UU.",
+    "notes": "Notas (opcional)",
+    "honeypot": "Sitio web de la empresa",
+    "submit": "Enviar mensaje",
+    "submitApply": "Enviar solicitud",
+    "sending": "Enviando…",
+    "success": "Gracias. Tu mensaje fue enviado. Te contactaremos pronto.",
+    "successApply": "Solicitud recibida. La revisaremos y te contactaremos. También puedes escribirnos por WhatsApp.",
+    "error": "Algo salió mal. Prueba por WhatsApp o envía el formulario de nuevo en unos minutos.",
+    "rateLimited": "Demasiados intentos. Espera unos minutos o escríbenos por WhatsApp.",
+    "emailUnconfigured": "No pudimos enviar el correo automáticamente. Escríbenos por WhatsApp para que no se pierda tu mensaje.",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Ingresa un correo válido",
+    "invalidPhone": "Ingresa un teléfono válido",
+    "minName": "Ingresa tu nombre completo",
+    "minMessage": "Agrega un mensaje breve",
+    "mustAuth": "Debes confirmar la autorización para trabajar"
+  },
+  "footer": {
+    "tagline": "TOGETHER.",
+    "quickLinks": "Enlaces",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "copyright": "© {year} Galan Operations LLC. Todos los derechos reservados.",
+    "inquiries": "Consultas de negocio bienvenidas."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "updated": "Fecha de vigencia: 18 de agosto de 2026",
+    "disclaimer": "Esta página es una plantilla de transparencia — no es asesoría legal. Un abogado con licencia en EE. UU. debe revisar esta política antes de considerarla definitiva.",
+    "sections": [
+      {
+        "title": "Quiénes somos",
+        "body": "Galan Operations LLC (“nosotros”) opera este sitio para describir nuestros servicios de flete y logística y para recibir solicitudes de conductores y consultas de negocio."
+      },
+      {
+        "title": "Información que recopilamos",
+        "body": "Si usas los formularios de contacto o de empleo, recopilamos los campos que envías: nombre, correo, teléfono, asunto o detalles de la solicitud, ciudad/estado, estado de la licencia, confirmación de autorización para trabajar y el mensaje que escribas. En esta versión del sitio no recopilamos carga de documentos. También recibimos registros técnicos estándar (dirección IP para limitar abuso, user agent) necesarios para operar y proteger el sitio."
+      },
+      {
+        "title": "Cómo usamos la información",
+        "body": "Usamos la información enviada solo para responder a tu consulta o solicitud, operar comunicaciones de empleo y de negocio, y proteger el sitio contra abuso. No vendemos datos personales."
+      },
+      {
+        "title": "Cookies y analítica",
+        "body": "Usamos Vercel Analytics y Vercel Speed Insights. Estas herramientas están diseñadas para respetar la privacidad y no dependen de cookies publicitarias de terceros. Pueden usarse cookies esenciales para el idioma y el comportamiento de la sesión (incluido si ya viste la animación de intro)."
+      },
+      {
+        "title": "Conservación",
+        "body": "Conservamos mensajes de consulta y solicitudes solo el tiempo necesario para responder y cumplir necesidades legítimas de registro, y luego los eliminamos o desidentificamos. Si quieres que un mensaje específico se elimine antes, contáctanos desde la página de Contacto."
+      },
+      {
+        "title": "Tus derechos",
+        "body": "Según dónde vivas, puedes tener derechos para acceder, corregir o eliminar información personal que tengamos, o preguntar cómo se usa. Para una solicitud, usa el formulario de contacto o WhatsApp e identifica el correo/teléfono que usaste."
+      },
+      {
+        "title": "Contacto para privacidad",
+        "body": "Usa el formulario de contacto (asunto: General) o WhatsApp al +1 (689) 253-0469. No envíes imágenes de identificación oficial a través del sitio."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de uso",
+    "updated": "Fecha de vigencia: 18 de agosto de 2026",
+    "disclaimer": "Esta página es una plantilla — no es asesoría legal. Un abogado con licencia en EE. UU. debe revisar estos términos antes de considerarlos definitivos.",
+    "sections": [
+      {
+        "title": "Acuerdo",
+        "body": "Al usar este sitio aceptas estos Términos de uso. Si no estás de acuerdo, no uses el sitio."
+      },
+      {
+        "title": "Qué es este sitio",
+        "body": "Este sitio es la presencia informativa y de empleo de Galan Operations LLC. El contenido describe servicios y una posición abierta de conductor Non-CDL. Nada en este sitio es una oferta de empleo hasta que lo confirmemos por escrito, y nada aquí es asesoría profesional, legal o de seguridad."
+      },
+      {
+        "title": "Exactitud",
+        "body": "Trabajamos para mantener la información actual, pero las operaciones, rutas y necesidades de contratación pueden cambiar. Si algo importa para una decisión — pago, horario, equipo — confírmalo directamente con nosotros."
+      },
+      {
+        "title": "Uso aceptable",
+        "body": "No debes abusar de los formularios (spam, automatización, identidad falsa), intentar interrumpir el sitio ni enviar contenido ilícito. Podemos ignorar o bloquear envíos abusivos."
+      },
+      {
+        "title": "Propiedad intelectual",
+        "body": "El nombre Galan Operations, el logo y el diseño del sitio son de Galan Operations LLC o se usan con permiso. No puedes copiarlos para uso comercial sin consentimiento escrito."
+      },
+      {
+        "title": "Limitación",
+        "body": "En la medida máxima permitida por la ley, Galan Operations LLC no es responsable de daños derivados del uso de este sitio o de la confianza en su contenido general. Algunas jurisdicciones no permiten ciertas limitaciones; en esos casos, nuestra responsabilidad se limita al máximo permitido por la ley."
+      },
+      {
+        "title": "Contacto",
+        "body": "Preguntas sobre estos términos: usa el formulario de contacto o WhatsApp +1 (689) 253-0469."
+      }
+    ]
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "body": "Inténtalo de nuevo. Si el problema continúa, escríbenos por WhatsApp.",
+    "retry": "Reintentar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esa ruta no está en nuestro mapa. Vuelve al inicio o abre Empleo si viniste a aplicar.",
+    "home": "Volver al inicio",
+    "careers": "Ver empleo"
+  },
+  "whatsappPrefill": "Hola Galan Operations LLC — quiero aplicar a la posición Driver Non-CDL (Box Truck de 26 pies).",
+  "whatsappPrefillContact": "Hola Galan Operations LLC — tengo una consulta de negocio."
+}

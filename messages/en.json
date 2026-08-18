@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "siteName": "Galan Operations LLC",
+    "defaultTitle": "Galan Operations LLC | Moving Freight. Delivering Trust.",
+    "defaultDescription": "Galan Operations LLC provides freight, trucking, and logistics solutions across the USA — Amazon Relay contracted routes and OTR long-haul transportation. We're hiring Non-CDL drivers.",
+    "ogAlt": "Galan Operations LLC — glossy black truck on a sunset highway"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "services": "Services",
+    "careers": "Careers",
+    "about": "About",
+    "contact": "Contact",
+    "applyNow": "Apply Now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primary": "Primary"
+  },
+  "language": {
+    "en": "EN",
+    "es": "ES",
+    "switchTo": "Switch language"
+  },
+  "intro": {
+    "skip": "Skip intro",
+    "welcome": "Welcome",
+    "together": "TOGETHER.",
+    "loading": "Loading Galan Operations",
+    "tagline": "Moving Freight. Delivering Trust."
+  },
+  "hero": {
+    "eyebrow": "TOGETHER.",
+    "title": "Moving Freight. Delivering Trust.",
+    "subtitle": "Logistics & Transportation Solutions across the USA",
+    "ctaPrimary": "We're Hiring Drivers",
+    "ctaSecondary": "Our Services",
+    "imageAlt": "Glossy black Galan Operations semi-truck driving on a highway at sunset"
+  },
+  "trust": {
+    "amazon": "Amazon Relay",
+    "otr": "OTR Routes (Over-The-Road)"
+  },
+  "aboutPreview": {
+    "eyebrow": "Who we are",
+    "title": "Professional freight. Personal accountability.",
+    "body": "Galan Operations LLC is a U.S. freight and logistics company built around reliability, safety, and a professional fleet culture. We move contracted Amazon Relay work and OTR long-haul routes — and we hire drivers who take pride in showing up.",
+    "cta": "Learn more"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Transportation solutions that keep freight moving",
+    "learnMore": "Learn more",
+    "amazon": {
+      "title": "Amazon Relay",
+      "summary": "Contracted Relay routes with a professional operating standard — consistent work for drivers who are ready to deliver.",
+      "body": "Amazon Relay is a contracted freight program that connects qualified carriers with Amazon loads. Galan Operations runs Relay work with a focus on punctuality, clean equipment, and clear communication so freight arrives as promised.",
+      "expectTitle": "What drivers and partners can expect",
+      "expect": [
+        "Contracted Relay routes operated to a professional standard",
+        "Clear dispatch communication and accountable on-time performance",
+        "A culture that treats reliability as non-negotiable"
+      ]
+    },
+    "otr": {
+      "title": "OTR Routes",
+      "summary": "Over-the-road long-haul transportation across U.S. lanes — built for distance, discipline, and trust.",
+      "body": "Our OTR (Over-The-Road) work covers long-haul lanes across the United States. We keep the brief simple: regular routes, a professional environment, and drivers who treat every mile as a commitment to the customer.",
+      "expectTitle": "What OTR drivers can expect",
+      "expect": [
+        "Long-haul routes with a professional dispatch cadence",
+        "Emphasis on safety, punctuality, and equipment pride",
+        "Room to grow with a company that invests in its people"
+      ]
+    }
+  },
+  "careersHighlight": {
+    "eyebrow": "We are",
+    "title": "Hiring",
+    "drivers": "Drivers",
+    "sub": "Join our team and drive your future.",
+    "positionLabel": "Position",
+    "position": "Non-CDL Driver — 26 ft. Box Truck",
+    "requirementsTitle": "Requirements",
+    "offersTitle": "We Offer",
+    "whatsapp": "Apply via WhatsApp",
+    "online": "Apply Online"
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "title": "We Are Hiring Drivers",
+    "sub": "Join our team and drive your future.",
+    "positionLabel": "Position",
+    "position": "Non-CDL Driver — 26 ft. Box Truck",
+    "requirementsTitle": "Requirements",
+    "offersTitle": "We Offer",
+    "applyTitle": "Apply online",
+    "applySub": "Tell us about yourself. We review every qualified application.",
+    "eeo": "Galan Operations LLC is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, age, disability, or any other protected status under applicable federal, state, or local law.",
+    "whatsappTop": "Prefer WhatsApp? Message us now.",
+    "whatsappBottom": "Questions? Write us on WhatsApp."
+  },
+  "requirements": [
+    "Valid driver's license",
+    "Box truck driving experience (preferred)",
+    "Clean/good driving record",
+    "Responsible and punctual",
+    "Authorized to work in the USA"
+  ],
+  "offers": [
+    "Competitive pay",
+    "Stable, consistent work",
+    "Regular routes",
+    "Professional environment",
+    "Growth opportunity"
+  ],
+  "stats": {
+    "eyebrow": "Why Galan",
+    "title": "Built for drivers who take the work seriously",
+    "items": [
+      { "label": "Regular Routes", "detail": "Predictable work you can plan around." },
+      { "label": "Professional Fleet", "detail": "A culture of clean equipment and pride." },
+      { "label": "Growth Opportunities", "detail": "Room to advance with the company." },
+      { "label": "USA Operations", "detail": "Freight and logistics across the United States." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to drive your future?",
+    "body": "Apply online or send us a WhatsApp message. We are hiring Non-CDL drivers for 26 ft. box trucks.",
+    "whatsapp": "Message on WhatsApp",
+    "apply": "Apply Online"
+  },
+  "aboutPage": {
+    "eyebrow": "About us",
+    "title": "Freight with a standard.",
+    "missionTitle": "Mission",
+    "mission": "Move freight with discipline and deliver trust on every lane we run. Galan Operations LLC exists to provide professional logistics and transportation solutions across the USA — Amazon Relay contracted routes and OTR long-haul work — while treating drivers as the core of the operation.",
+    "visionTitle": "Vision",
+    "vision": "A lean, professional carrier that drivers are proud to represent, and that shippers can count on without drama.",
+    "storyTitle": "Our story",
+    "story": "Galan Operations LLC is a U.S. freight and logistics company. We keep our public story aligned with what we can verify: professional operations, a hiring pipeline for Non-CDL box-truck drivers, and a simple promise — together, we move freight and deliver trust.",
+    "valuesTitle": "Values",
+    "values": [
+      { "title": "Reliability", "body": "On-time performance is the product. We plan, communicate, and follow through." },
+      { "title": "Safety", "body": "Every mile is a responsibility. We hire for judgment, not just availability." },
+      { "title": "Professionalism", "body": "Clean equipment, respectful communication, and a standard you can see." },
+      { "title": "Growth", "body": "Stable work and a path forward for people who show up ready." }
+    ]
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Business inquiries & hiring",
+    "body": "Drivers, partners, and business inquiries — send a message below or reach us on WhatsApp. We respond to qualified conversations.",
+    "business": "Business Inquiries",
+    "whatsappLabel": "WhatsApp",
+    "formTitle": "Send a message",
+    "addressNote": "A public street address is not listed on this site."
+  },
+  "forms": {
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "subjectGeneral": "General",
+    "subjectCareers": "Careers",
+    "subjectPartnership": "Partnership",
+    "message": "Message",
+    "cityState": "City / State",
+    "experience": "Years of box-truck experience",
+    "licenseStatus": "License status",
+    "licenseValid": "Valid driver's license",
+    "licenseOther": "Other / in process",
+    "workAuth": "I confirm I am authorized to work in the USA",
+    "notes": "Notes (optional)",
+    "honeypot": "Company website",
+    "submit": "Send message",
+    "submitApply": "Submit application",
+    "sending": "Sending…",
+    "success": "Thank you. Your message was sent. We will follow up shortly.",
+    "successApply": "Application received. We will review it and follow up. You can also message us on WhatsApp.",
+    "error": "Something went wrong. Please try WhatsApp or send the form again in a few minutes.",
+    "rateLimited": "Too many attempts. Please wait a few minutes, or message us on WhatsApp.",
+    "emailUnconfigured": "We could not deliver email automatically. Please message us on WhatsApp so nothing is missed.",
+    "required": "This field is required",
+    "invalidEmail": "Enter a valid email address",
+    "invalidPhone": "Enter a valid phone number",
+    "minName": "Please enter your full name",
+    "minMessage": "Please add a short message",
+    "mustAuth": "Work authorization confirmation is required"
+  },
+  "footer": {
+    "tagline": "TOGETHER.",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp",
+    "copyright": "© {year} Galan Operations LLC. All rights reserved.",
+    "inquiries": "Business inquiries welcome."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Effective date: August 18, 2026",
+    "disclaimer": "This page is a drafting template for transparency — it is not legal advice. A licensed U.S. attorney should review this policy before it is treated as final.",
+    "sections": [
+      {
+        "title": "Who we are",
+        "body": "Galan Operations LLC (“we”) operates this website to describe our freight and logistics services and to receive driver applications and business inquiries."
+      },
+      {
+        "title": "Information we collect",
+        "body": "If you use the contact or apply forms, we collect the fields you submit: name, email, phone, subject or application details, city/state, license status, work-authorization confirmation, and any message you write. We do not collect document uploads in this version of the site. We also receive standard technical logs (IP address used for rate limiting, user agent) needed to operate and protect the site."
+      },
+      {
+        "title": "How we use information",
+        "body": "We use submitted information only to respond to your inquiry or application, to operate hiring and business communications, and to protect the site against abuse. We do not sell personal data."
+      },
+      {
+        "title": "Cookies and analytics",
+        "body": "We use Vercel Analytics and Vercel Speed Insights. These tools are designed to be privacy-respecting and do not rely on third-party advertising cookies. Essential cookies may be used for language preference and session behavior (including whether you have already seen the intro animation)."
+      },
+      {
+        "title": "Retention",
+        "body": "We keep inquiry and application messages only as long as needed to respond and to meet legitimate business or legal recordkeeping needs, then delete or de-identify them. If you want a specific message removed sooner, contact us using the details on the Contact page."
+      },
+      {
+        "title": "Your rights",
+        "body": "Depending on where you live, you may have rights to access, correct, or delete personal information we hold, or to ask how it is used. To make a request, use the contact form or WhatsApp and identify the email/phone you used."
+      },
+      {
+        "title": "Contact for privacy requests",
+        "body": "Use the contact form (subject: General) or WhatsApp at +1 (689) 253-0469. Do not send government ID images through the website."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "updated": "Effective date: August 18, 2026",
+    "disclaimer": "This page is a drafting template — it is not legal advice. A licensed U.S. attorney should review these terms before they are treated as final.",
+    "sections": [
+      {
+        "title": "Agreement",
+        "body": "By using this website you agree to these Terms of Use. If you do not agree, do not use the site."
+      },
+      {
+        "title": "What this site is",
+        "body": "This website is an informational and hiring presence for Galan Operations LLC. Content describes services and an open Non-CDL driver position. Nothing on this site is a job offer until we explicitly confirm one in writing, and nothing here is professional, legal, or safety advice."
+      },
+      {
+        "title": "Accuracy",
+        "body": "We work to keep information current, but freight operations, routes, and hiring needs can change. If something matters to a decision — pay, schedule, equipment — confirm it directly with us."
+      },
+      {
+        "title": "Acceptable use",
+        "body": "You may not misuse the forms (spam, automated abuse, false identity), attempt to disrupt the site, or submit content that is unlawful. We may ignore or block abusive submissions."
+      },
+      {
+        "title": "Intellectual property",
+        "body": "The Galan Operations name, logo, and site design are owned by Galan Operations LLC or used with permission. You may not copy them for commercial use without written consent."
+      },
+      {
+        "title": "Limitation",
+        "body": "To the fullest extent permitted by law, Galan Operations LLC is not liable for damages arising from your use of this website or reliance on its general content. Some jurisdictions do not allow certain limitations; in those cases, our liability is limited to the maximum permitted by law."
+      },
+      {
+        "title": "Contact",
+        "body": "Questions about these terms: use the contact form or WhatsApp +1 (689) 253-0469."
+      }
+    ]
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "Please try again. If the problem continues, message us on WhatsApp.",
+    "retry": "Try again"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That route is not on our map. Head home or open Careers if you came to apply.",
+    "home": "Back home",
+    "careers": "View careers"
+  },
+  "whatsappPrefill": "Hello Galan Operations LLC — I would like to apply for the Non-CDL Driver (26 ft. Box Truck) position.",
+  "whatsappPrefillContact": "Hello Galan Operations LLC — I have a business inquiry."
+}

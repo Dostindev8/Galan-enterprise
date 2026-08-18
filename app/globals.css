@@ -1,0 +1,371 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-primary: #0a0b0d;
+  --color-bg-secondary: #121417;
+  --color-surface: #1a1d21;
+  --color-silver-100: #f4f5f6;
+  --color-silver-300: #c9ccd1;
+  --color-silver-500: #9a9ea6;
+  --color-chrome-700: #5b5f66;
+  --color-gold-300: #f3d98b;
+  --color-gold-500: #d4af37;
+  --color-gold-700: #a67c1e;
+  --color-text-primary: #f5f6f7;
+  --color-text-secondary: #a6abb3;
+  --color-text-muted: #6b7076;
+  --color-success: #34c759;
+  --color-error: #ff3b30;
+  --ease-apple: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --shadow-gold-glow: 0 0 40px rgba(212, 175, 55, 0.15);
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-playfair: "Playfair Display", Georgia, serif;
+  --font-bebas: "Bebas Neue", Impact, sans-serif;
+}
+
+@theme inline {
+  --color-bg-primary: var(--color-bg-primary);
+  --color-bg-secondary: var(--color-bg-secondary);
+  --color-surface: var(--color-surface);
+  --color-silver-100: var(--color-silver-100);
+  --color-silver-300: var(--color-silver-300);
+  --color-silver-500: var(--color-silver-500);
+  --color-chrome-700: var(--color-chrome-700);
+  --color-gold-300: var(--color-gold-300);
+  --color-gold-500: var(--color-gold-500);
+  --color-gold-700: var(--color-gold-700);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+  --shadow-gold-glow: var(--shadow-gold-glow);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+  --font-headline: var(--font-bebas);
+  --ease-apple: var(--ease-apple);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+html[data-intro="seen"] .intro-overlay {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100dvh;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-inter);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-gold-500) 40%, transparent);
+  color: var(--color-silver-100);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold-500);
+  outline-offset: 3px;
+}
+
+.chrome-text {
+  background: linear-gradient(180deg, #f4f5f6 0%, #c9ccd1 42%, #8d929a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gold-text {
+  background: linear-gradient(180deg, #f3d98b 0%, #d4af37 48%, #a67c1e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hairline {
+  border: 1px solid color-mix(in srgb, var(--color-chrome-700) 55%, transparent);
+}
+
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gold-500),
+    transparent
+  );
+}
+
+.display-title {
+  font-family: var(--font-bebas);
+  letter-spacing: 0.04em;
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.label-caps {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--color-gold-500);
+}
+
+/* ── Cinematic intro sky ── */
+.intro-sky {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 80% 50% at 85% 62%, #ffd27a 0%, transparent 55%),
+    linear-gradient(
+      180deg,
+      #070812 0%,
+      #1a1233 22%,
+      #4a1e3a 42%,
+      #c45a18 62%,
+      #f08a2a 78%,
+      #ffd78a 100%
+    );
+}
+
+.intro-stars {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 12% 18%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 28% 8%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 46% 14%, #ffe9c2 50%, transparent 51%),
+    radial-gradient(1px 1px at 63% 6%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 81% 16%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 18% 32%, #fff 50%, transparent 51%),
+    radial-gradient(1px 1px at 72% 28%, #ffe9c2 50%, transparent 51%),
+    radial-gradient(1px 1px at 91% 22%, #fff 50%, transparent 51%);
+  animation: starTwinkle 3.2s var(--ease-apple) infinite alternate;
+  opacity: 0.55;
+}
+
+.intro-sun {
+  position: absolute;
+  right: 8%;
+  bottom: 36%;
+  width: min(18vw, 160px);
+  height: min(18vw, 160px);
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff6d2 0%, #ffd36a 28%, #ff8c00 58%, transparent 72%);
+  box-shadow:
+    0 0 80px 30px rgba(255, 170, 40, 0.45),
+    0 0 160px 60px rgba(255, 100, 20, 0.25);
+  animation: sunPulse 4s var(--ease-apple) infinite alternate;
+}
+
+.intro-flare {
+  position: absolute;
+  right: 6%;
+  bottom: 34%;
+  width: 42%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 230, 160, 0.85), transparent);
+  filter: blur(1px);
+  transform: rotate(-8deg);
+  animation: flareSweep 5s var(--ease-apple) infinite alternate;
+}
+
+.intro-cloud {
+  position: absolute;
+  left: 0;
+  width: 140%;
+  height: 28%;
+  background: radial-gradient(ellipse at center, rgba(255, 140, 60, 0.28), transparent 70%);
+  filter: blur(18px);
+  animation: cloudDrift 18s linear infinite;
+}
+
+.intro-cloud-a {
+  top: 18%;
+  opacity: 0.7;
+}
+.intro-cloud-b {
+  top: 28%;
+  animation-duration: 26s;
+  animation-direction: reverse;
+  opacity: 0.45;
+}
+.intro-cloud-c {
+  top: 8%;
+  height: 18%;
+  animation-duration: 32s;
+  opacity: 0.3;
+}
+
+@keyframes starTwinkle {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+@keyframes sunPulse {
+  from {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  to {
+    transform: scale(1.06);
+    filter: brightness(1.15);
+  }
+}
+
+@keyframes flareSweep {
+  from {
+    opacity: 0.35;
+    transform: rotate(-8deg) translateX(-4%);
+  }
+  to {
+    opacity: 0.9;
+    transform: rotate(-6deg) translateX(4%);
+  }
+}
+
+@keyframes cloudDrift {
+  from {
+    transform: translateX(-12%);
+  }
+  to {
+    transform: translateX(-28%);
+  }
+}
+
+@keyframes roadShimmer {
+  from {
+    filter: brightness(1);
+  }
+  to {
+    filter: brightness(1.12);
+  }
+}
+
+.hero-kenburns {
+  transform: scale(1.04);
+}
+
+.hero-clouds {
+  pointer-events: none;
+  position: absolute;
+  inset: -8%;
+  opacity: 0.18;
+  mix-blend-mode: screen;
+  background-image:
+    radial-gradient(ellipse 42% 18% at 18% 22%, rgba(255, 214, 160, 0.45), transparent 70%),
+    radial-gradient(ellipse 36% 16% at 72% 14%, rgba(255, 180, 110, 0.32), transparent 72%),
+    radial-gradient(ellipse 50% 20% at 48% 8%, rgba(255, 236, 210, 0.22), transparent 75%);
+  background-size: 140% 140%;
+}
+
+.hero-legibility {
+  pointer-events: none;
+  position: absolute;
+  inset: auto 0 0 0;
+  height: min(62%, 520px);
+  background: linear-gradient(
+    to top,
+    rgba(10, 11, 13, 0.78) 0%,
+    rgba(10, 11, 13, 0.32) 48%,
+    transparent 100%
+  );
+}
+
+.nav-link {
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 180ms var(--ease-apple);
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: var(--color-gold-500);
+  transition: transform 180ms var(--ease-apple);
+}
+
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+  color: var(--color-text-primary);
+}
+
+.nav-link:hover::after,
+.nav-link[aria-current="page"]::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-kenburns {
+    animation: heroKenBurns 32s ease-in-out infinite alternate;
+    will-change: transform;
+  }
+
+  .hero-clouds {
+    animation: heroCloudDrift 40s linear infinite;
+    will-change: background-position;
+  }
+}
+
+@keyframes heroKenBurns {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.12) translate3d(-2.2%, -1.4%, 0);
+  }
+}
+
+@keyframes heroCloudDrift {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 18%;
+  }
+}

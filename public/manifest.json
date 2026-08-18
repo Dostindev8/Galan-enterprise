@@ -1,0 +1,21 @@
+{
+  "name": "Galan Operations LLC",
+  "short_name": "Galan",
+  "description": "Freight, trucking, and logistics — Amazon Relay and OTR routes.",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#0A0B0D",
+  "theme_color": "#0A0B0D",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
