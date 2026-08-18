@@ -1,12 +1,26 @@
 export const COMPANY_NAME = "Galan Operations LLC";
 
+function envText(value: string | undefined): string {
+  return value?.trim() ?? "";
+}
+
+function resolveSiteUrl(): string {
+  const raw = envText(process.env.NEXT_PUBLIC_SITE_URL);
+  if (!raw) return "http://localhost:3000";
+  try {
+    return new URL(raw).origin;
+  } catch {
+    return "http://localhost:3000";
+  }
+}
+
 export const WHATSAPP_NUMBER =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "16892530469";
+  envText(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER).replace(/\D/g, "") ||
+  "16892530469";
 
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+export const SITE_URL = resolveSiteUrl();
 
-export const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL ?? "";
+export const INSTAGRAM_URL = envText(process.env.NEXT_PUBLIC_INSTAGRAM_URL);
 
 export const DISPLAY_PHONE = "+1 (689) 253-0469";
 
