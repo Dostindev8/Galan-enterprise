@@ -24,6 +24,7 @@
   },
   "intro": {
     "skip": "Saltar intro",
+    "skipAria": "Saltar introducción",
     "welcome": "Bienvenido",
     "together": "TOGETHER.",
     "loading": "Cargando Galan Operations",

@@ -76,6 +76,12 @@ html[data-intro="seen"] .intro-overlay {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+
+  .intro-overlay,
+  .intro-overlay * {
+    animation-duration: 300ms !important;
+    transition-duration: 300ms !important;
+  }
 }
 
 html,

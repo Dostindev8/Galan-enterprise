@@ -73,6 +73,13 @@ export default async function LocaleLayout({ children, params }: Props) {
     >
       <head>
         <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/truck-sunset.png"
+          fetchPriority="high"
+        />
+        <link rel="preload" as="image" href="/images/highway-sunset.png" />
         <script
           dangerouslySetInnerHTML={{
             __html:

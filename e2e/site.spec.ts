@@ -20,6 +20,12 @@ test("language switch preserves the careers path", async ({ page }) => {
   await expect(page.getByRole("heading", { level: 2 }).first()).toBeVisible();
 });
 
+test("skip intro reveals the home hero", async ({ page }) => {
+  await page.goto("/en");
+  await page.getByRole("button", { name: /skip introduction/i }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Moving Freight");
+});
+
 test("contact form shows validation errors", async ({ page }) => {
   await page.addInitScript(() => {
     sessionStorage.setItem("galan_intro_seen", "1");
