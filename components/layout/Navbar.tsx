@@ -107,30 +107,9 @@ export function Navbar() {
           </ProtectedMedia>
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex" aria-label={t("primary")}>
-          {links.map((item) => {
-            const active = isActivePath(pathname, item.href);
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="nav-link text-sm text-[var(--color-text-secondary)]"
-                aria-current={active ? "page" : undefined}
-              >
-                {t(item.key)}
-              </Link>
-            );
-          })}
-        </nav>
-
-        <div className="hidden items-center gap-3 lg:flex">
-          <LanguageSwitcher />
-          <ButtonLink href="/careers#apply">{t("applyNow")}</ButtonLink>
-        </div>
-
         <button
           type="button"
-          className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[14px] text-[var(--color-text-primary)] lg:hidden"
+          className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-white"
           aria-expanded={open}
           aria-controls={menuId}
           onClick={() => setOpen((value) => !value)}
@@ -145,7 +124,7 @@ export function Navbar() {
           <>
             <motion.div
               aria-hidden="true"
-              className="fixed inset-0 z-40 bg-[color-mix(in_srgb,var(--color-bg-primary)_55%,transparent)] backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-40 bg-[color-mix(in_srgb,var(--color-bg-primary)_55%,transparent)] backdrop-blur-sm"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -158,7 +137,7 @@ export function Navbar() {
               role="dialog"
               aria-modal="true"
               aria-label={t("primary")}
-              className="fixed top-0 right-0 z-50 flex h-dvh w-[min(100%,20rem)] flex-col border-l border-[color-mix(in_srgb,var(--color-chrome-700)_45%,transparent)] bg-[var(--color-bg-secondary)] px-5 py-6 shadow-[-24px_0_60px_rgba(0,0,0,0.35)] lg:hidden"
+              className="fixed top-0 right-0 z-50 flex h-dvh w-[min(100%,20rem)] flex-col border-l border-[color-mix(in_srgb,var(--color-chrome-700)_45%,transparent)] bg-[var(--color-bg-secondary)] px-5 py-6 shadow-[-24px_0_60px_rgba(0,0,0,0.35)]"
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}

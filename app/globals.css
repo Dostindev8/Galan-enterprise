@@ -301,14 +301,85 @@ body {
 .hero-legibility {
   pointer-events: none;
   position: absolute;
-  inset: auto 0 0 0;
-  height: min(62%, 520px);
+  inset: 0;
   background: linear-gradient(
-    to top,
-    rgba(10, 11, 13, 0.78) 0%,
-    rgba(10, 11, 13, 0.32) 48%,
-    transparent 100%
+    90deg,
+    rgba(10, 11, 13, 0.74) 0%,
+    rgba(10, 11, 13, 0.42) 28%,
+    rgba(10, 11, 13, 0.12) 52%,
+    transparent 72%
   );
+}
+
+.hero-lightning {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse 28% 40% at 18% 28%, rgba(255, 252, 245, 0.28), transparent 70%),
+    linear-gradient(115deg, transparent 12%, rgba(255, 255, 255, 0.16) 18%, transparent 24%);
+}
+
+.hero-bolt {
+  pointer-events: none;
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  width: min(18vw, 140px);
+  height: min(42vh, 320px);
+  opacity: 0;
+  filter: drop-shadow(0 0 12px rgba(255, 250, 220, 0.85));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-lightning {
+    animation: heroLightningFlash 7.5s ease-in-out infinite;
+  }
+
+  .hero-bolt {
+    animation: heroBoltStrike 7.5s ease-in-out infinite;
+  }
+}
+
+@keyframes heroLightningFlash {
+  0%,
+  86%,
+  100% {
+    opacity: 0;
+  }
+  87.4% {
+    opacity: 0.95;
+  }
+  88.2% {
+    opacity: 0.12;
+  }
+  89.1% {
+    opacity: 0.7;
+  }
+  91% {
+    opacity: 0;
+  }
+}
+
+@keyframes heroBoltStrike {
+  0%,
+  86%,
+  100% {
+    opacity: 0;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  88.4% {
+    opacity: 0.15;
+  }
+  89.2% {
+    opacity: 0.85;
+  }
+  91.5% {
+    opacity: 0;
+  }
 }
 
 .nav-link {
