@@ -60,7 +60,7 @@ export function Hero() {
             priority
             draggable={false}
             className={cn(
-              "object-cover object-[78%_58%] sm:object-[72%_52%]",
+              "object-cover object-[40%_56%] sm:object-[50%_52%] lg:object-[68%_50%]",
               showCopy && !reduce && "hero-kenburns",
             )}
             sizes="100vw"
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="hero-clouds" aria-hidden="true" />
           <div className="hero-lightning" aria-hidden="true" />
           <svg
-            className="hero-bolt"
+            className="hero-bolt hidden sm:block"
             viewBox="0 0 64 220"
             fill="none"
             aria-hidden="true"
@@ -84,7 +84,7 @@ export function Hero() {
         </ProtectedMedia>
       </motion.div>
 
-      <Container className="relative z-10 flex min-h-[100dvh] items-center pt-24 pb-16">
+      <Container className="relative z-10 flex min-h-[100dvh] items-start pt-28 pb-16 sm:items-center sm:pt-24">
         <div className="max-w-[36rem]">
           <motion.p
             className="label-caps"

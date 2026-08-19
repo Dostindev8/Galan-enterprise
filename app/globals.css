@@ -308,13 +308,32 @@ body {
   pointer-events: none;
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(10, 11, 13, 0.74) 0%,
-    rgba(10, 11, 13, 0.42) 28%,
-    rgba(10, 11, 13, 0.12) 52%,
-    transparent 72%
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(10, 11, 13, 0.38) 0%,
+      transparent 26%,
+      transparent 62%,
+      rgba(10, 11, 13, 0.42) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(10, 11, 13, 0.58) 0%,
+      rgba(10, 11, 13, 0.22) 42%,
+      transparent 78%
+    );
+}
+
+@media (min-width: 1024px) {
+  .hero-legibility {
+    background: linear-gradient(
+      90deg,
+      rgba(10, 11, 13, 0.74) 0%,
+      rgba(10, 11, 13, 0.42) 28%,
+      rgba(10, 11, 13, 0.12) 52%,
+      transparent 72%
+    );
+  }
 }
 
 .hero-lightning {
@@ -388,6 +407,47 @@ body {
   }
 }
 
+.nav-menu-btn {
+  position: relative;
+  isolation: isolate;
+}
+
+.nav-menu-btn--pulse::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.42) 0%, transparent 72%);
+  box-shadow: 0 0 12px 2px rgba(212, 175, 55, 0.28);
+}
+
+@keyframes navMenuPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.55;
+    box-shadow: 0 0 8px 0 rgba(212, 175, 55, 0.25);
+  }
+  50% {
+    transform: scale(1.22);
+    opacity: 1;
+    box-shadow: 0 0 22px 6px rgba(243, 217, 139, 0.4);
+  }
+}
+
+@keyframes navMenuGlow {
+  0%,
+  100% {
+    color: #ffffff;
+    filter: drop-shadow(0 0 4px rgba(243, 217, 139, 0.45));
+  }
+  50% {
+    color: #f3d98b;
+    filter: drop-shadow(0 0 12px rgba(255, 214, 90, 0.95));
+  }
+}
+
 .nav-link {
   position: relative;
   padding-bottom: 2px;
@@ -426,6 +486,22 @@ body {
   .hero-clouds {
     animation: heroCloudDrift 40s linear infinite;
     will-change: background-position;
+  }
+
+  .nav-menu-btn--pulse::before {
+    animation: navMenuPulse 2.4s var(--ease-apple) infinite;
+  }
+
+  .nav-menu-btn--pulse svg {
+    animation: navMenuGlow 2.4s var(--ease-apple) infinite;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) and (max-width: 767px) {
+  .hero-kenburns {
+    animation: none;
+    transform: none;
+    will-change: auto;
   }
 }
 

@@ -109,7 +109,10 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-white"
+          className={cn(
+            "nav-menu-btn inline-flex min-h-11 min-w-11 items-center justify-center rounded-full text-white",
+            !open && "nav-menu-btn--pulse",
+          )}
           aria-expanded={open}
           aria-controls={menuId}
           onClick={() => setOpen((value) => !value)}

@@ -20,7 +20,11 @@ export function IntroTruckReveal({ compact, timing, exiting, x, y }: Props) {
   return (
     <motion.div className="absolute inset-0" style={{ x, y }}>
       <motion.div
-        className={cn("absolute inset-x-0 bottom-0 h-[48%] sm:h-[55%]", styles.animLayer)}
+        className={cn(
+          "absolute inset-x-0 bottom-0",
+          compact ? "h-[64%]" : "h-[48%] sm:h-[55%]",
+          styles.animLayer,
+        )}
         variants={variants.truck}
         initial="hidden"
         animate={exiting ? "hidden" : "show"}
@@ -33,7 +37,7 @@ export function IntroTruckReveal({ compact, timing, exiting, x, y }: Props) {
           draggable={false}
           className={cn(
             "object-cover",
-            compact ? "object-[center_82%]" : "object-bottom",
+            compact ? "object-[center_70%]" : "object-bottom",
           )}
           sizes="100vw"
         />
@@ -41,7 +45,11 @@ export function IntroTruckReveal({ compact, timing, exiting, x, y }: Props) {
       </motion.div>
 
       <motion.div
-        className={cn("absolute inset-0", styles.animLayer)}
+        className={cn(
+          "absolute inset-x-0 bottom-0",
+          compact ? "h-[78%]" : "inset-0 h-auto",
+          styles.animLayer,
+        )}
         variants={variants.truck}
         initial="hidden"
         animate={exiting ? "hidden" : "show"}
@@ -54,11 +62,18 @@ export function IntroTruckReveal({ compact, timing, exiting, x, y }: Props) {
           draggable={false}
           className={cn(
             "object-cover",
-            compact ? "object-[68%_78%]" : "object-[center_70%]",
+            compact ? "object-[40%_52%]" : "object-[center_68%]",
           )}
           sizes="100vw"
         />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--color-bg-primary)] via-[color-mix(in_srgb,var(--color-bg-primary)_18%,transparent)] to-transparent" />
+        <div
+          className={cn(
+            "pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--color-bg-primary)] to-transparent",
+            compact
+              ? "via-transparent"
+              : "via-[color-mix(in_srgb,var(--color-bg-primary)_18%,transparent)]",
+          )}
+        />
       </motion.div>
     </motion.div>
   );
